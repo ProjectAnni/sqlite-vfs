@@ -158,7 +158,7 @@ checksum = "eef78b64d87775463c549fbd80e19249ef436ea3bf1de2a1eb7e717ec7fab1e9"
 [[package]]
 name = "libsqlite3-sys"
 version = "0.23.2"
-source = "git+https://github.com/trevyn/rusqlite?branch=wasm32-unknown-unknown#004cf263143e038f01e6022d8d5b81b9c621f89f"
+source = "git+https://github.com/ProjectAnni/rusqlite?branch=wasm32-unknown-unknown#31301e1123447f0bb1ee9c804cfe7fa12734e723"
 dependencies = [
  "cc",
  "getrandom",
@@ -328,7 +328,7 @@ checksum = "f497285884f3fcff424ffc933e56d7cbca511def0c9831a7f9b5f6153e3cc89b"
 [[package]]
 name = "rusqlite"
 version = "0.26.3"
-source = "git+https://github.com/trevyn/rusqlite?branch=wasm32-unknown-unknown#004cf263143e038f01e6022d8d5b81b9c621f89f"
+source = "git+https://github.com/ProjectAnni/rusqlite?branch=wasm32-unknown-unknown#31301e1123447f0bb1ee9c804cfe7fa12734e723"
 dependencies = [
  "bitflags",
  "fallible-iterator",
